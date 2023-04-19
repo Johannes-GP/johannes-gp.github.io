@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Novecento";
+    src: url("fonts/Novecento.otf");
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway.ttf");
+}
+
+@font-face {
+    font-family: "GandhiSerif";
+    src: url("fonts/GandhiSerif.otf");
+}
+
+body {
+    font-family: "GandhiSerif";
+    color: #ECECED;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/background-sample.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article__subheader {
+    color: #FFD466;
+    text-transform: uppercase;
+    font-family: "Novecento", sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    transform: translate(6rem);
+    padding-left: 0.6rem;
+}
+
+.article__subheader::before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #FFD466;
+    width: 6rem;
+    height: 2px;
+    display: block;
+}
+
+.article__header {
+    font-size: 2rem;
+    font-family: "Raleway", sans-serif;
+}
+
+.article__body {
+    font-size: 1.2rem;
+}
+
+.article__action {
+    border: 2px solid #958956;
+    color: #ECECED;
+    display: inline-block;
+    font-family: "Novecento", sans-serif;
+    font-size: 1.4rem;
+    overflow: hidden;
+    padding: 1rem 1.6rem;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.article__action:before {
+    background-color: #958956;
+    content: "";
+    height: 100%;
+    left: -100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    z-index: -1;
+}
+
+.article__action:hover {
+    color: #ECECE3;
+}
+
+.article__action:hover:before {
+    left: 0;
+}
