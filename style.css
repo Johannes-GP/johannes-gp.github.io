@@ -19,12 +19,13 @@ body {
 }
 
 .banner {
+    align-items: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/background-sample.webp);
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 2.8rem;
 }
 
 .article__subheader {
