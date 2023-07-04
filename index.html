@@ -3,57 +3,194 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio | Posgrados UG</title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.min.css" /> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.min.css">
+    <link rel="icon" type="image/x-icon" href="img/daip.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2b03317cd9.js" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-    <section class="banner">
-        <div class="slider__wrapper">
-            <div class="slider">
-                <article class="slider__item">
-                    <div class="article__subheader">
-                        Convocatoria
-                    </div>
-                    <h2 class="article__header">Maestría en Administración de Tecnologías</h2>
-                    <p class="article__body">Expedición de fichas: 01 al 25 de abril de 2023</p>
-                    <a href="#!" class="article__action">Más Información</a>
-                </article>
-                <article class="slider__item">
-                    <div class="article__subheader">
-                        Convocatoria
-                    </div>
-                    <h2 class="article__header">Doctorado en Ciencias de la Ingeniería</h2>
-                    <p class="article__body">Expedición de fichas: 25 de abril al 10 de mayo de 2023</p>
-                    <a href="#!" class="article__action">Más Información</a>
-                </article>
-                <article class="slider__item">
-                    <div class="article__subheader">
-                        Trámite
-                    </div>
-                    <h2 class="article__header">Liberación de Beca CONACYT</h2>
-                    <p class="article__body">Conoce los requisitos para tramitar la conclusión de tu beca CONACYT</p>
-                    <a href="#!" class="article__action">Más Información</a>
-                </article>
-                <article class="slider__item">
-                    <div class="article__subheader">
-                        Convocatoria
-                    </div>
-                    <h2 class="article__header">Maestría en Ingeniería Electrónica Aplicada</h2>
-                    <p class="article__body">Expedición de fichas: 01 de mayo al 01 de junio de 2023</p>
-                    <a href="#!" class="article__action">Más Información</a>
-                </article>
+
+    <nav class="navbar">
+        <div class="brand-title">Posgrados UG</div>
+        <a href="#!" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#!">SNP</a></li>
+                <li><a href="#!">Profesores</a></li>
+                <li><a href="#!">Egresados</a></li>
+                <li><a href="#!">Eventos</a></li>
+                <li><a href="#!">Iniciar Sesión</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="educational-offer">
+        <div class="educational-offer-text">
+            <h2 class="educational-offer-title">Oferta Educativa</h2>
+            <p class="educational-offer-description">
+                Descubre las oportunidades de estudios de posgrado que ofrece la Universidad
+                de Guanajuato para impulsar tu crecimiento intelectual y desarrollo profesional a través de cuatro
+                excelentes campus distribuidos por distintas zonas del estado.
+            </p>
+            <a href="#!" class="educational-offer-button">Ver Todos los Posgrados</a>
+        </div>
+        <div class="campuses-wrapper">
+            <div class="campus-card">
+                <div class="campus-card-data">
+                    <span class="campus-card-programs-number">X posgrados</span>
+                    <h3 class="campus-card-title">Campus Celaya - Salvatierra</h3>
+                    <a href="#!" class="campus-card-button">Ver Posgrados</a>
+                </div>
+                <div class="campus-card-img-wrapper">
+                    <img src="img/campus.webp" alt="An icon showing the facade of a university">
+                </div>
+                <div class="campus-card-img-decoration"></div>
+            </div>
+            <div class="campus-card">
+                <div class="campus-card-data">
+                    <span class="campus-card-programs-number">X posgrados</span>
+                    <h3 class="campus-card-title">Campus Guanajuato</h3>
+                    <a href="#!" class="campus-card-button">Ver Posgrados</a>
+                </div>
+                <div class="campus-card-img-wrapper">
+                    <img src="img/campus.webp" alt="An icon showing the facade of a university">
+                </div>
+                <div class="campus-card-img-decoration"></div>
+            </div>
+            <div class="campus-card">
+                <div class="campus-card-data">
+                    <span class="campus-card-programs-number">X posgrados</span>
+                    <h3 class="campus-card-title">Campus Irapuato - Salamanca</h3>
+                    <a href="#!" class="campus-card-button">Ver Posgrados</a>
+                </div>
+                <div class="campus-card-img-wrapper">
+                    <img src="img/campus.webp" alt="An icon showing the facade of a university">
+                </div>
+                <div class="campus-card-img-decoration"></div>
+            </div>
+            <div class="campus-card">
+                <div class="campus-card-data">
+                    <span class="campus-card-programs-number">X posgrados</span>
+                    <h3 class="campus-card-title">Campus León</h3>
+                    <a href="#!" class="campus-card-button">Ver Posgrados</a>
+                </div>
+                <div class="campus-card-img-wrapper">
+                    <img src="img/campus.webp" alt="An icon showing the facade of a university">
+                </div>
+                <div class="campus-card-img-decoration"></div>
             </div>
         </div>
     </section>
 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
-    <script src="script.js"></script>
+    <section class="scholarships">
+        <div class="scholarships-info">
+            <h2 class="scholarships-title">Convocatorias de Becas</h2>
+            <p class="scholarships-description">Revisa las distintas convocatorias que se ofrecen para los programas de
+                posgrado de la Universidad de Guanajuato</p>
+        </div>
+        <div class="blog-card">
+            <div class="meta">
+                <div class="photo" style="background-image: url(img/beca1.webp)"></div>
+            </div>
+            <div class="description">
+                <h1>Becas Institucionales</h1>
+                <h2>Estudios de Posgrado UG</h2>
+                <p>El programa de becas de nuestra universidad tiene como objetivo alentar a los estudiantes en su
+                    trayectoria educativa. Nuestra institución reconoce el potencial de cada estudiante y trabaja para
+                    desarrollar sus habilidades invirtiendo en su educación.</p>
+                <p class="read-more">
+                    <a href="#!">Ver Convocatorias</a>
+                </p>
+            </div>
+        </div>
+        <div class="blog-card alt">
+            <div class="meta">
+                <div class="photo" style="background-image: url(img/beca2.webp)"></div>
+            </div>
+            <div class="description">
+                <h1>Becas CONAHCYT</h1>
+                <h2>Becas Nacionales para Estudios de Posgrado</h2>
+                <p>El compromiso de CONHACYT es brindar a los estudiantes que lo merecen los recursos y oportunidades
+                    necesarios para sobresalir académicamente, perseguir sus aspiraciones y convertirse en miembros
+                    valiosos de sus comunidades. Los beneficiarios de estas becas son motivados a buscar oportunidades
+                    de investigación y tener un impacto positivo en sus respectivos campos.</p>
+                <p class="read-more">
+                    <a href="#!">Ver Convocatorias</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="contact-info-wrapper">
+            <div class="contact-info">
+                <i class="fa-solid fa-graduation-cap fa-lg"></i>
+                <div class="contact-info-text">
+                    <h4>Universidad de Guanajuato</h4>
+                    <span>Dirección de Apoyo a la Investigación y al Posgrado</span>
+                </div>
+            </div>
+            <div class="contact-info">
+                <i class="fa-solid fa-map-location-dot fa-lg"></i>
+                <div class="contact-info-text">
+                    <h4>Ubicación</h4>
+                    <span>Calzada de Guadalupe S/N<br>C.P. 36000<br>Guanajuato, Gto.</span>
+                </div>
+            </div>
+            <div class="contact-info">
+                <i class="fa-solid fa-phone fa-lg"></i>
+                <div class="contact-info-text">
+                    <h4>Teléfono</h4>
+                    <span>(+52) 473-732-00-06</span>
+                </div>
+            </div>
+            <div class="contact-info">
+                <i class="fa-solid fa-at fa-lg"></i>
+                <div class="contact-info-text">
+                    <h4>Correo Electrónico</h4>
+                    <span>posgrados.daip@ugto.mx</span>
+                </div>
+            </div>
+        </div>
+        <div class="useful-links-wrapper">
+            <div class="links">
+                <h3>Enlaces de Ayuda</h3>
+                <ul>
+                    <li><a href="#!">Sitios de Interés</a></li>
+                    <li><a href="#!">Trámites Migratorios</a></li>
+                    <li><a href="#!">Guía para Coordinadores</a></li>
+                    <li><a href="#!">Directorio</a></li>
+                    <li><a href="#!">Reglamentos y Normativas</a></li>
+                    <li><a href="#!">Aviso de Privacidad</a></li>
+                    <li><a href="#!">Matriz SIFOR</a></li>
+                </ul>
+            </div>
+            <div class="social-networks-wrapper">
+                <h3>Redes Sociales</h3>
+                <div class="social-networks">
+                    <a href="#!"><i class="fa-brands fa-square-facebook"></i> Facebook</a>
+                    <a href="#!"><i class="fa-brands fa-square-twitter"></i> Twitter</a>
+                    <a href="#!"><i class="fa-brands fa-square-youtube"></i> YouTube</a>
+                    <a href="#!"><i class="fa-brands fa-square-instagram"></i> Instragram</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2023<br><a class="bsl-link" href="">Bee Software Laboratory</a><br>Todos los Derechos
+                Reservados</p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
